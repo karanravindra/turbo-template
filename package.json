@@ -1,6 +1,6 @@
 {
-	"name": "www",
-	"description": "www for karan",
+	"name": "minimal-turborepo-starter",
+	"description": "Minimal turbo starter",
 	"private": true,
 	"packageManager": "pnpm@8.15.6",
 	"devDependencies": {
