@@ -1,5 +1,5 @@
 import { Hono } from "hono";
-import { validator as zValidator, resolver, describeRoute } from "hono-openapi";
+import { describeRoute, resolver, validator as zValidator } from "hono-openapi";
 import z from "zod";
 
 const app = new Hono().get(
