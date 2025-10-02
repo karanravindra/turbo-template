@@ -6,9 +6,12 @@
 	"scripts": {
 		"dev": "turbo dev",
 		"build": "turbo build",
-		"start": "turbo start"
+		"start": "turbo start",
+		"fmt": "biome format --write",
+		"check": "biome check --write"
 	},
 	"devDependencies": {
+		"@biomejs/biome": "2.2.5",
 		"turbo": "^2.5.6"
 	}
 }
