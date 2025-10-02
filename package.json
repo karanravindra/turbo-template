@@ -1,8 +1,13 @@
 {
-	"name": "minimal-turborepo-starter",
-	"description": "Minimal turbo starter",
+	"name": "turbo-template",
+	"description": "Minimal turbo monorepo template",
 	"private": true,
 	"packageManager": "pnpm@8.15.6",
+	"scripts": {
+		"dev": "turbo dev",
+		"build": "turbo build",
+		"start": "turbo start"
+	},
 	"devDependencies": {
 		"turbo": "^2.5.6"
 	}
